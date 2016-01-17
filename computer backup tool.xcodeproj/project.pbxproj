@@ -52,7 +52,8 @@
 				2854827B1C4B4023000A69CA /* computer backup tool */,
 			);
 			name = Products;
-			sourceTree = "<group>";
+			path = "../../../../../../../../Desktop/jonathons-projects/jonathon_projects/computer backup tool";
+			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		2854827D1C4B4023000A69CA /* computer backup tool */ = {
 			isa = PBXGroup;
