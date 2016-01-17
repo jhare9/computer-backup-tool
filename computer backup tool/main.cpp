@@ -35,6 +35,11 @@ int main(int argc, const char * argv[]) {
     string start = "";
     string cpy_path ="";
     
+    if(argc == 1){
+        cout<<"please enter \"computer backup tool\" <files path to copy> <path to copy to>";
+        return 0;
+    }
+    
     // used to check if the command line arguments are a corrected file path.
     for(int i = 1; i < argc; i++){
         string temp_args = argv[i];
@@ -53,11 +58,11 @@ int main(int argc, const char * argv[]) {
                 closedir(dir_ptr);
             }else{
                 cout<<"please enter a valid file path ex /User/Username/Documents\n";
-                return 1;
+                return 0;
             }
         }else{
             cout<<"please enter a valid file path ex /User/Username/Documents\n";
-            return 1;
+            return 0;
         }
     }
     
